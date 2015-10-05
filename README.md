@@ -1,4 +1,7 @@
 # WindowsAssets
 Assets for Windows Phone and Mobile Apps
 
-Files in formato Microsoft Design per la realizzazione degli assets necessari per le applicaizoni Windows.
+Microsoft Expression Design files to build the assets required for Windows applications.
+
+Download Microsoft Expression Design 4 (Free Version) 
+http://www.microsoft.com/en-us/download/details.aspx?id=36180
