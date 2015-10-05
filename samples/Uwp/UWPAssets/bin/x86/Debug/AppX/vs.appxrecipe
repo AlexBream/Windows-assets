@@ -1,0 +1,766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASLAP10</Machine>
+    <WindowsUser>Alle</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ca8ca650-75b7-4449-a821-7ecbd58dd670</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E493E3963C4E4EBB9602DC132F211444B915DE29711523A6179FBD7EA763BA29</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ca8ca650-75b7-4449-a821-7ecbd58dd670_1.0.0.0_x86__akddnvsh64d68</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ca8ca650-75b7-4449-a821-7ecbd58dd670_akddnvsh64d68!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ca8ca650-75b7-4449-a821-7ecbd58dd670</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Alle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:31:35.449</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:49.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T15:54:26.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T15:57:52.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T15:54:26.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T15:54:26.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:50.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:51.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-05T20:25:52.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-07-30T07:39:52.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\entrypoint\UWPAssets.exe">
+      <PackagePath>entrypoint\UWPAssets.exe</PackagePath>
+      <Modified>2015-10-05T20:31:34.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:40.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-09-27T08:44:05.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-05T20:31:34.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\StoreLogo.scale-100.png">
+      <PackagePath>StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-08-26T23:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-07-30T07:39:45.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-07-30T07:39:46.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-07-30T07:39:40.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-07-30T07:39:47.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-07-30T07:39:52.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-07-30T07:39:52.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-07-30T07:39:52.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-07-30T07:39:48.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-07-30T07:39:42.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-07-30T07:39:43.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-07-30T07:39:40.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-07-30T07:39:50.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-07-30T07:39:49.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-07-30T07:39:50.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-07-30T07:39:50.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-07-30T07:39:50.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-07-30T07:39:50.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-07-30T07:39:41.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-07-30T07:39:44.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\UWPAssets.exe">
+      <PackagePath>UWPAssets.exe</PackagePath>
+      <Modified>2015-10-05T20:31:35.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\UWPAssets.xr.xml">
+      <PackagePath>UWPAssets.xr.xml</PackagePath>
+      <Modified>2015-10-05T14:42:50.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alle\Dev\GitHub\Windows-assets\samples\Uwp\UWPAssets\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-08-08T17:14:51.725</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
