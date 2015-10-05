@@ -1,4 +1,4 @@
-# WindowsAssets
+# Windows-assets
 Assets for Windows Phone and Mobile Apps
 
 Microsoft Expression Design files to build the assets required for Windows applications.
